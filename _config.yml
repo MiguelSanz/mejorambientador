@@ -23,8 +23,8 @@ title: MejorAmbientador.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ambientadores y aceites esenciales para tu hogar, coche, oficina.
   Te damos toda la información sobre los mejores aromas (lavanda, limón, frutos del bosque...) y tipos de ambientador (mikados, brumizadores, humidificadores...).
-baseurl: "www.mejorambientador.com" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.mejorambientador.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
