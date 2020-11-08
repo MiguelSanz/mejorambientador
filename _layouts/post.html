@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<p>
+    {{ page.date | date_to_string }}    
+</p>
+
+<p>
+    Aromas:
+    {% assign aroma = site.aromas | where: 'nombre', page.aroma | first %}
+    {% if aroma %}
+        - <a href="{{ aroma.url }}">{{ aroma.nombre }}</a>
+    {% endif %}
+</p>
+
+<p>
+    Aromas:
+    {% for aroma in site.aromas %}
+        {% if page.aroma contains aroma.nombre %}
+            <a href="{{ aroma.url }}">{{ aroma.nombre }}</a>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+<p>
+    Puntuación: {{ page.puntuacion }}    
+</p>
+
+{{ content }}
