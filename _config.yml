@@ -60,6 +60,7 @@ plugins:
 
 show_excerpts: true
 google_analytics: G-E4J6JLNMFE
+
 #JEKYLL_ENV=production
 
 # Exclude from processing.
