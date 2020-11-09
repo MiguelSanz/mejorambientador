@@ -29,7 +29,7 @@ url: "https://www.mejorambientador.com" # the base hostname & protocol for your 
 #github_username:  jekyll
 
 header_pages:
-  - aromas.html
+  - aromas.markdown
   - tipos-de-ambientador.markdown
   - about.markdown
 

@@ -6,7 +6,6 @@ categories: Aceites-esenciales Set Lagunamoon
 aroma:
     - "Lavanda"
     - "Limon"
-
 ---
 Set de aceites esenciales de lavanda, limón, etc. de la marca Lagunamoon.
 <br>

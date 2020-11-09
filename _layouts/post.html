@@ -29,3 +29,10 @@ layout: default
 </p>
 
 {{ content }}
+<br>
+{% if page.product_amazon %}
+    <p>Comprar en Amazon: <a href="{{ page.product_amazon }}">Ver precio</a></p>
+{% endif %}
+{% if page.product_ebay %}
+    <p>Comprar en Ebay: <a href="{{ page.product_ebay }}">Ver precio</a></p>
+{% endif %}

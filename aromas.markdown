@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Aromas
+permalink: /aromas/
 sitemap:
   priority: 0.8
   changefreq: 'weekly'

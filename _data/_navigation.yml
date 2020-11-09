@@ -1,0 +1,6 @@
+- name: Home
+  link: /
+- name: Aromas
+  link: /aromas/
+- name: Tipos
+  link: /tipos-de-ambientador/  
