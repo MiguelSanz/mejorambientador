@@ -6,8 +6,22 @@ sitemap:
   priority: 0.8
   changefreq: 'weekly'
 ---
-<h1>Aromas</h1>
+<section class="seccion"> 
+    {% for aroma in site.aromas %}
+        <article class="art-cuadro">
+          <h4><a href="{{ aroma.url }}">{{ aroma.nombre }}</a></h4>
+          {% if aroma.imagen_cabecera %}
+            <a href="{{ aroma.url }}"><img src="{{ aroma.imagen_cabecera}}" width="200" height="100" alt="{{ aroma.nombre }}"></a>
+          {% else %}
+            <p>(sin imagen)</p>
+          {% endif %}          
+          <p>Propiedades: {{ aroma.propiedades }}</p>
+        </article>
+    {% endfor %}
+</section>
 
+
+<!--
 <ul>
     {% for aroma in site.aromas %}
         <li>
@@ -37,3 +51,4 @@ sitemap:
     {% endfor %}
   </ul>
 {% endfor %}
+-->

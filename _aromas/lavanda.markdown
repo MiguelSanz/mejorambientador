@@ -2,8 +2,9 @@
 nombre: Lavanda
 propiedades: Relajacion Tranquilidad Bienestar
 tags: lavanda, lavandula, lavender, alhucema, espliego, cantueso
+imagen_cabecera: "/assets/images/cabecera-lavanda.jpg"
 ---
-<img src="/assets/images/cabecera-lavanda.jpg" height="200" alt="{{ page.title }}">
+<img src="{{ page.imagen_cabecera }}" height="200" alt="{{ page.title }}">
 <br>
 <p>A la lavanda se le suele conocer por muchos nombres como lavandula, espliego, cantueso, alhucema... lo que es inconfundible es su olor.</p>
 <p>La lavanda es sin duda uno de los aromas más populares. Suele asociarse a sensaciones que transmiten limpieza y bienestar.</p>
