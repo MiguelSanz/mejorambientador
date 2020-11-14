@@ -1,0 +1,12 @@
+<article class="art-cuadro">
+    <h4><a href="{{ include.url }}">{{ include.url_texto }}</a></h4>
+    {% if include.imagen %}
+      <a href="{{ include.url }}"><img src="{{ include.imagen }}" alt="{{ include.text_url }}" style="max-width: {{ include.max-width }};" ></a>
+    {% else %}
+      <p>(sin imagen)</p>
+    {% endif %}
+    {% if include.extracto %}
+      <p>{{ include.extracto }}</p>
+      <p><a href="{{ include.url }}">(Seguir leyendo)</a></p>
+    {% endif %}
+</article>

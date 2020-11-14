@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+(_layout: post.html)<br>
 <h1>{{ page.title }}</h1>
 
 <p>
@@ -29,6 +30,7 @@ layout: default
 </p>
 
 {{ content }}
+
 <br>
 {% if page.product_amazon %}
     <p>Comprar en Amazon: <a href="{{ page.product_amazon }}">Ver precio</a></p>
@@ -36,3 +38,10 @@ layout: default
 {% if page.product_ebay %}
     <p>Comprar en Ebay: <a href="{{ page.product_ebay }}">Ver precio</a></p>
 {% endif %}
+<br>
+<p>Información sobre el aroma:</p>
+{% for aroma in site.aromas %}
+{% if page.aroma contains aroma.nombre %}
+    <p>{{ aroma.excerpt }}</p>
+{% endif %}
+{% endfor %}

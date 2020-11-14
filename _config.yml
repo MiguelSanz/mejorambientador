@@ -59,6 +59,7 @@ plugins:
   - jekyll-feed
 
 show_excerpts: true
+excerpt_separator: <!--more-->
 google_analytics: G-E4J6JLNMFE
 
 #JEKYLL_ENV=production
