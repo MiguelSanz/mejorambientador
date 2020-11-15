@@ -12,6 +12,7 @@ imagen_cabecera: "/assets/images/homasy_lavanda.jpg"
 ---
 <p>Este es un de los aceites esenciales más vendidos en <a href="{{ product_amazon }}">Amazon</a>.</p>
 <p>Dentro de la gama de precios es sin duda uno de los más baratos para la calidad que tiene. Además tiene la garantía de la marca Homasy conocida por su gama de humidificadores y difusores de aceites esenciales.</p>
+<!--more-->
 <p>Si estás empezando a utilizar aceites esenciales para ambientar tu hogar este es sin duda uno de los que te recomendamos. Además, lo hay en formato de 50ml y 120ml, perfecto para que te duren una buena temporada.</p>
 <img src="{{ page.imagen_cabecera }}" width="48" alt="{{ page.title }}">
 

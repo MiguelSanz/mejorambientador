@@ -31,7 +31,6 @@ url: "https://www.mejorambientador.com" # the base hostname & protocol for your 
 header_pages:
   - aromas.markdown
   - tipos-de-ambientador.markdown
-  - about.markdown
 
 collections:
   aromas:
