@@ -10,14 +10,6 @@ layout: default
 
 <p>
     Aromas:
-    {% assign aroma = site.aromas | where: 'nombre', page.aroma | first %}
-    {% if aroma %}
-        - <a href="{{ aroma.url }}">{{ aroma.nombre }}</a>
-    {% endif %}
-</p>
-
-<p>
-    Aromas:
     {% for aroma in site.aromas %}
         {% if page.aroma contains aroma.nombre %}
             <a href="{{ aroma.url }}">{{ aroma.nombre }}</a>
@@ -28,6 +20,12 @@ layout: default
 <p>
     Puntuación: {{ page.puntuacion }}    
 </p>
+
+{% if page.filename_cabecera %}
+{% include imagen.html 
+    filename=page.filename_cabecera
+    alt="prueba" %}
+{% endif %}
 
 {{ content }}
 
