@@ -24,7 +24,8 @@ layout: default
 {% if page.filename_cabecera %}
 {% include imagen.html 
     filename=page.filename_cabecera
-    alt="prueba" %}
+    alt=page.title 
+    tipo="posts" %}
 {% endif %}
 
 {{ content }}

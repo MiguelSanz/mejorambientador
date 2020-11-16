@@ -1,5 +1,5 @@
 <picture>
-    <source type="image/webp" srcset="/assets/images/{{ include.filename }}.webp">
-    <source type="image/jpeg" srcset="/assets/images/{{ include.filename }}.png">
-    <img src="/assets/images/{{ include.filename }}.png" alt="{{ include.alt }}">
+    <source type="image/webp" srcset="/assets/images/{{ include.tipo }}/{{ include.filename }}.webp">
+    <source type="image/jpeg" srcset="/assets/images/{{ include.tipo }}/{{ include.filename }}.png">
+    <img src="/assets/images/{{ include.tipo }}/{{ include.filename }}.png" alt="{{ include.alt }}">
 </picture>

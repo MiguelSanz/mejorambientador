@@ -2,6 +2,13 @@
 layout: default
 ---
 
+{% if page.nombre %}
+{% include imagen.html 
+    filename=page.nombre
+    alt=page.title 
+    tipo="aromas" %}
+{% endif %}
+
 {{ content }}
 
 <h2>Productos</h2>
