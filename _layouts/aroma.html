@@ -2,9 +2,9 @@
 layout: default
 ---
 
-{% if page.nombre %}
+{% if page.filename_cabecera %}
 {% include imagen.html 
-    filename=page.nombre
+    filename=page.filename_cabecera
     alt=page.title 
     tipo="aromas" %}
 {% endif %}

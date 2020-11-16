@@ -5,6 +5,7 @@ tags: lavanda, lavandula, lavender, alhucema, espliego, cantueso
 tipo_fragancia: floral
 objetivos: limpio relajante
 extracto: "La lavanda es sin duda uno de los aromas más populares. Suele asociarse a sensaciones que transmiten limpieza y bienestar."
+filename_cabecera: "lavanda"
 ---
 <p>{{ page.extracto }} </p>
 <p>Se le suele conocer por muchos nombres como lavandula, espliego, cantueso, alhucema... lo que es inconfundible es su olor.</p>
